@@ -1,7 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Nomes",
+  title: "Em construção | Clone TabNews",
+  description: "Estamos reconstruindo o TabNews durante o curso.dev.",
 };
 
 export default function RootLayout({ children }) {
