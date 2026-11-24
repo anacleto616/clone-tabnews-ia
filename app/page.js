@@ -37,11 +37,14 @@ export default function Home() {
       <span className="eyebrow">TabNews · curso.dev</span>
       <h1>Em construção</h1>
       <p className="description">
-        Estamos neste exato momento reconstruindo o TabNews, um lugar na internet
-        para quem trabalha com tecnologia e precisa conteúdos com valor concreto
+        Estamos neste exato momento reconstruindo o TabNews, um lugar na
+        internet para quem trabalha com tecnologia e precisa conteúdos com valor
+        concreto
       </p>
       <div className="content-count">
-        <Suspense fallback={<p role="status">Consultando total de conteúdos…</p>}>
+        <Suspense
+          fallback={<p role="status">Consultando total de conteúdos…</p>}
+        >
           <ContentCount />
         </Suspense>
       </div>

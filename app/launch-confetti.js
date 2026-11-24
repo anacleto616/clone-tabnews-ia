@@ -10,7 +10,10 @@ export default function LaunchConfetti() {
   const [complete, setComplete] = useState(false);
 
   useEffect(() => {
-    if (complete || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (
+      complete ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
       return;
     }
 
